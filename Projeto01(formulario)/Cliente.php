@@ -31,17 +31,6 @@
    $file = $_POST["file"];
    $datetime = date('d/m/Y');
   
-   $to      = $email;
-   $subject = 'the subject';
-   $message = 'hello';
-   $headers = array(
-    'From' => 'webmaster@example.com',
-    'Reply-To' => 'webmaster@example.com',
-    'X-Mailer' => 'PHP/' . phpversion()
-);
-
-mail($to, $subject, $message, $headers);
-   ?>
 
 <form>
     <fieldset>
