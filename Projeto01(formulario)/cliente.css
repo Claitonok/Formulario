@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-footer:black;
+    --cor-fundo: hsl(186, 79%, 55%);
+    /* cria a variável --cor-fundo com a cor azul escuro */
+    --cor-hover: hsl(0, 0%, 100%);
+    /*  cria a variável --cor-hover com a cor cinza*/
+    --cor-link: hsl(0, 0%, 100%);
+    /* cria a variável --cor-link com a cor branca*/
+}
+form{
+    background-color:aqua;
+    position: relative;
+    border-radius: 10%;
+    height: 280px;
+    width: 270px;
+    margin: auto;
+    padding: 02%;
+    margin-top: 05%;
+}
+
+fieldset{
+    position: relative;
+    border-radius: 10%;
+    margin: auto; 
+}
+
+#button {
+    position: relative;
+    font-size: 90%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+figure img {
+    position: absolute;
+    width: 100%;
+    height: 91.5%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 80%;
+    margin-top: 05%;
+}
+
+section h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+    color: var(--cor-hover);
+}
+* {
+    margin: 0;
+    /* zera as margens */
+    padding: 0;
+    /* zera os epsaçamentos internos */
+    box-sizing: border-box;
+    /* calcula a largura e altura dos elementos sem levar em conta, padding e border */
+    font-family: Arial, Helvetica, sans-serif;
+    /* família de fontes Arial, Helvetica, sans-serif*/
+}
+header h2 a{
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 50%;
+    position: relative;
+    margin: 0%;
+    margin-top: 200%;
+    transition: 0.7s;
+    padding: 20px 15px;
+    font-size: 30px;
+}
+header h2 a:hover{
+    background-color: var(--cor-hover);
+    font-size: 25px;
+}
+
+
+header{
+    height: 60px;
+    background-color: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li a {
+    transition: 0.7s;
+    padding: 20px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+header a {
+    color:var(--cor-footer);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: var(--cor-hover);
+    font-size: 18px;
+}
