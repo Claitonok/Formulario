@@ -1,0 +1,85 @@
+:root {
+    --cor-footer:black;
+    --cor-fundo: hsl(186, 79%, 55%);
+    /* cria a variável --cor-fundo com a cor azul escuro */
+    --cor-hover: hsl(0, 0%, 100%);
+    /*  cria a variável --cor-hover com a cor cinza*/
+    --cor-link: hsl(0, 0%, 100%);
+    /* cria a variável --cor-link com a cor branca*/
+}
+
+* {
+    margin: 0;
+    /* zera as margens */
+    padding: 0;
+    /* zera os epsaçamentos internos */
+    box-sizing: border-box;
+    /* calcula a largura e altura dos elementos sem levar em conta, padding e border */
+    font-family: Arial, Helvetica, sans-serif;
+    /* família de fontes Arial, Helvetica, sans-serif*/
+}
+header h2 a{
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 50%;
+    position: relative;
+    margin: 0%;
+    margin-top: 200%;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header{
+    height: 60px;
+    background-color: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+header nav ul li a {
+    transition: 0.7s;
+    padding: 20px 15px;
+    font-size: 20px;
+}
+header a {
+    color:var(--cor-footer);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: var(--cor-hover);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+figure img {
+    position: absolute;
+   height: 100%;
+   width: 100%;
+   
+}
+
+fieldset{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 25%;
+   text-align: center;
+   margin: auto;
+   position:relative;
+   margin-top: 15%;
+}
+
+details{
+    margin-top: 10%;
+    margin-bottom: 05%;
+    position: relative;
+}
+
+p a {
+    text-decoration: none;
+    position: relative;
+}
