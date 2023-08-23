@@ -14,7 +14,7 @@
 <a href="#home" class="active">Cliente</a>
   <div id="myLinks">
     <a href="./index.html">Home</a>
-    <a href="#contact">Contato</a>
+    <a href="./Contatos">Contato</a>
     <a href="./sobre.html">Sobre</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
